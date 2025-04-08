@@ -71,25 +71,6 @@ void main() {
                       width: 320,
                       height: 320,
                       fit: BoxFit.contain,
-                      errorBuilder: (context, error, stackTrace) {
-                        return Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.error_outline,
-                              color: Colors.red,
-                              size: 40,
-                            ),
-                            Text(
-                              'Logo nicht gefunden',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                              ),
-                            ),
-                          ],
-                        );
-                      },
                     ),
                   ),
                 ),
