@@ -143,17 +143,7 @@ void main() {
                 color: Color.fromRGBO(0, 0, 0, 1.0),
               ),
             ),
-            Align(
-              alignment: Alignment(0, 0.975),
-              child: Container(
-                height: 4,
-                width: 120,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.0),
-                ),
-              ),
-            ),
+            
           ],
         ),
       ),
